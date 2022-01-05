@@ -7,9 +7,9 @@ public class Git {
 		  System.out.println();
 		  for(int j = 60; j > 0; j--) {
 			  Thread.sleep(100);
-			  System.out.println(j);
+			  System.out.println(j+" /"+i);
 		  }
 		  System.out.println("Hello world "+" Hello world");
 	  }
-}
+    }
 }
